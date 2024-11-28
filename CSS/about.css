@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-section {
+  padding: 20px 100px;
+}
+
+.hero-section .content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px; 
+}
+
+.hero-section .text {
+  flex: 1;
+  max-width: 550px;
+}
+
+.hero-section .text h1 {
+  font-size: 48px;
+  color: #1042BF; 
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.hero-section .text h3 {
+  font-size: 24px;
+  color: #FC5F12; 
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.hero-section .text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333; 
+  line-height: 1.6;
+}
+
+
+.hero-section .image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+} 
+
+.hero-section .image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f6fb0;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  color: #666;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.vission-section,
+.mission-section {
+  padding: 20px 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.vission-section .d-flex,
+.mission-section .d-flex {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.vission-section .img,
+.mission-section .img  {
+  flex: 1;
+  text-align: center;
+}
+
+.vission-section .img img,
+.mission-section .img img {
+  max-width: 500px;
+  height: 400px;
+  border-radius: 8px;
+}
+
+.vission-section .text,
+.mission-section .text {
+  flex: 2;
+}
+
+.vission-section .text p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.mission-section .text ul li h3 {
+  font-size: 1.5rem;
+  color: #1f6fb0;
+  margin-bottom: 10px;
+}
+
+.mission-section .text ul li p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.4;
+}
+.history {
+  background-color: #fafbfb;
+  padding: 20px 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.history h1 {
+  color: #1F6FB0;
+  font-size: 42px; 
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.history p {
+  color: #333; 
+  line-height: 32px;
+  margin-bottom: 1.5rem; 
+  text-align: justify;
+}
+
+/* Responsive Design */
+@media (max-width: 750px) {
+  .history {
+      padding: 1.5rem; /* Reduces padding on smaller screens */
+      font-size: 0.9rem; /* Slightly reduces font size */
+  }
+
+  .history h1 {
+      font-size: 1.5rem; /* Adjusts heading size for small screens */
+  }
+}

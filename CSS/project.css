@@ -1,0 +1,126 @@
+.hero-section {
+    color: white;
+    padding: 100px 20px;
+    background-image: url('../images/ecoleave.png');
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    padding: 20px 100px;
+    text-align: center;
+}
+.hero-section h1 {
+    font-size: 48;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #f8f9fa;
+}
+
+.hero-section a.btn {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 50px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    text-shadow: none;
+    color: #1042BF;
+    box-shadow: 0 4px 6px rgba(252, 95, 18, 0.2);
+}
+
+.hero-section a.btn:hover {
+    background: #f8f9fa;
+    color: #1F6FB0;
+    transform: scale(1.1);
+}
+
+.hero-section .container {
+    z-index: 1;
+    position: relative;
+}
+
+.flyers {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.flyers h1 {
+    color: #1f6fb0;
+    margin-bottom: 20px;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.posters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 100px;
+    flex-wrap: wrap;
+}
+
+.posters .class-item {
+    text-align: center;
+    flex: 1 1 calc(33.33% - 30px);
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.posters .class-item:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #32535A, #1042BF);
+    color: #ffffff;
+}
+
+.posters .class-item:hover i,
+.posters .class-item:hover p {
+    color: #ffffff;
+}
+.posters .class-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.posters .class-item i {
+    font-size: 60px;
+    color: #1f6fb0;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.posters .class-item p {
+    font-size: 36px;
+    color: #666;
+    margin: 0;
+    font-weight: 400;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .posters {
+        flex-direction: column;
+    }
+
+    .posters .class-item {
+        flex: 1 1 100%;
+    }
+}

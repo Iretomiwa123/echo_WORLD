@@ -1,0 +1,150 @@
+.donate-hero {
+    background: linear-gradient(to bottom, rgba(31, 111, 176, 0.8), rgba(223, 245, 251, 0.8));
+    color: white;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.donate-hero .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.text-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.text-content h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.text-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.text-content .btn {
+    padding: 12px 25px;
+    background-color: #FC5F12;
+    color: white;
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.text-content .btn:hover {
+    background: #ffffff;
+    color: #1F6FB0;
+    text-decoration: none;
+}
+
+.carousel {
+    flex: 1;
+    max-width: 600px;
+}
+
+.carousel img {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+
+        .donation-tier {
+            border: 2px solid #DFF5FB;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            background: #F9F9F9;
+            transition: transform 0.3s ease;
+        }
+
+        .btn-donate {
+            background-color: #1F6FB0;
+            color: white;
+            border: none;
+        }
+
+        .btn-donate:hover {
+            background-color: #FC5F12;
+            color: #ffffff;
+        }
+.donation {
+    padding: 50px 100px;
+}
+
+.donation .donate-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.donation .section-header h3 {
+    font-size: 36px;
+    color: #1042BF;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.donation .donate-tab {
+    margin-top: 20px;
+}
+
+.donation .nav-pills .nav-link {
+    color: #FC5F12;
+    border-radius: 5px;
+    font-weight: 500;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.donation .nav-pills .nav-link:hover,
+.donation .nav-pills .nav-link.active {
+    background: #1042BF;
+    color: #ffffff;
+}
+
+.donation .tab-content p,
+.donation .tab-content td {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.donation .tab-content table {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donation .tab-content table td {
+    padding: 10px;
+    font-size: 0.9rem;
+    border: 1px solid #1042BF;
+}
+
+.donation .tab-content table td:first-child {
+    font-weight: bold;
+    color: #333;
+    width: 40%;
+}
+
+.donation .tab-content table td:last-child {
+    color: #1042BF;
+    font-weight: bold;
+}
