@@ -21,12 +21,16 @@
 }
 
 .text-content h1 {
-    font-size: 42px;
+    font-size: 48px;
     font-weight: 700;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-
+.don{
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
 .text-content p {
     font-size: 24px;
     margin-bottom: 30px;
@@ -84,16 +88,16 @@
 .donation {
     padding: 50px 100px;
 }
-
 .donation .donate-img img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.donation .section-header h3 {
+.donation .section-header h3,
+.tier{
     font-size: 36px;
-    color: #1042BF;
+    color: #04143D;
     font-weight: 600;
     text-align: center;
     margin-bottom: 20px;
@@ -119,7 +123,7 @@
 
 .donation .tab-content p,
 .donation .tab-content td {
-    font-size: 1rem;
+    font-size: 18px;
     color: #555;
     line-height: 1.5;
 }
@@ -134,7 +138,7 @@
 
 .donation .tab-content table td {
     padding: 10px;
-    font-size: 0.9rem;
+    font-size: 16px;
     border: 1px solid #1042BF;
 }
 
@@ -147,4 +151,52 @@
 .donation .tab-content table td:last-child {
     color: #1042BF;
     font-weight: bold;
+}
+@media (max-width: 768px) {
+    .donate-hero {
+        padding: 100px 60px;
+    }
+    .donate-hero .content {
+        display: block;
+    }
+    .carousel img {
+        margin-top: 20px;
+    }
+    .text-content h1 {
+        font-size: 30px;
+    }
+    
+    .text-content p {
+        font-size: 18px;
+    }
+    
+    .text-content .btn {
+        font-size: 16px;
+    }
+    .donation {
+        padding: 20px 60px;
+    }
+    .donation .section-header h3,
+    .tier {
+        font-size: 24px;
+    }
+
+    .donation .tab-content p,
+    .donation .tab-content td {
+        font-size: 14px;
+    }
+ 
+    .donation .tab-content table td {
+        font-size: 14px;
+    }
+    
+}
+@media (max-width: 600px) {
+    .donate-hero{
+        padding: 100px 30px;
+    }
+  .donation,
+  .don{
+    padding: 50px 30px;
+  }
 }
