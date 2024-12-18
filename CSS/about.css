@@ -1,10 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body{
+  font-family: "Poppins", serif;
 }
 
-.hero-section, 
+.hero-section{
+  padding: 100px;
+} 
 .vission-section, 
 .mission-section, 
 .content-section, 
@@ -66,10 +66,10 @@
 }
 
 .hero-section .text p {
-  font-size: 20px;
-  font-weight: 400;
-  color: #333; 
-  line-height: 1.6;
+  font-size: 24px;
+  font-weight: medium;
+  color: #666;
+  line-height: 1.5; 
 }
 
 .mission-section .text ul li h5 {
@@ -88,11 +88,13 @@
   font-size: 20px;
   line-height: 1.6;
 }
-h3{
-  color: #04143D;
-  font-size: 36px;
-  text-align: center;
+h3 {
+  color: #04143d;
+  margin-top: 30px;
   margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px
 }
 p{
   color: #666;
@@ -161,7 +163,7 @@ p{
   padding: 20px 60px;
 }
 .hero-section .text h1 {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 .hero-section .text h4 {
@@ -169,7 +171,7 @@ p{
 }
 
 .hero-section .text p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .mission-section .text ul li h5 {
@@ -184,7 +186,7 @@ p{
   font-size: 16px;
 }
 h3{
-  font-size: 20px;
+  font-size: 24px;
 }
 p{
   font-size: 16px;
@@ -202,5 +204,7 @@ p{
   .team-member img {
    width: 100% !important;
   }
-
+  .hero-section .text h1 {
+    font-size: 28px;
+  }
 }
