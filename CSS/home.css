@@ -288,12 +288,17 @@ h3 {
 }
 
 @media (max-width:768px) {
-    .back-video {
-        object-fit: contain; 
-        height: 100% !important;
-    }
     .hero {
-        min-height: 70vh;
+        min-height: 80vh;
+        max-height: 100%;
+    }
+    
+    .back-video {
+        object-fit: cover;
+        background-position: center !important;
+        height: 70vh; 
+        max-height: 100%;
+        
     }
     .hero_next {
         padding: 20px 60px;
@@ -376,14 +381,14 @@ h3 {
 
 @media (max-width:600px) {
     .hero {
-        min-height: 40vh;
+        min-height: 60vh;
         max-height: 100%;
     }
     
     .back-video {
         object-fit: cover;
         background-position: center !important;
-        height: 70vh; 
+        height: 50vh; 
         max-height: 100%;
         
     }
@@ -417,16 +422,17 @@ h3 {
     }
 }
 
-/* @media (max-width:480px) {
+@media (max-width:480px) {
     .hero {
-        min-height: 50vh;
+        min-height: 35vh;
         max-height: 100%;
     }
     
     .back-video {
-        object-fit: cover;
-        height: 70vh; 
+        object-fit: cover !important;
+        background-size: cover !important;
+        height: 35vh !important; 
         max-height: 100%;
-       
+        
     }
-} */
+}
