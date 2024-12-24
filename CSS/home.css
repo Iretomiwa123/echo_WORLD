@@ -381,9 +381,10 @@ h3 {
     }
     
     .back-video {
-        object-fit: contain;
-        height: 50vh; 
+        object-fit: cover;
+        height: 70vh; 
         max-height: 100%;
+        width: 100vw !important;
     }
     .hero_next {
         padding: 20px 30px;
