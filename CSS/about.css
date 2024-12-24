@@ -136,13 +136,17 @@ p{
   .mission-section .text {
     text-align: center;
   }
-.hero-section, 
+.hero-section {
+  padding: 100px 80px;
+}
+
 .vission-section, 
 .mission-section, 
 .content-section, 
 .history {
   padding: 20px 80px;
 }
+
 }
 
 @media (max-width: 768px) {
@@ -155,7 +159,9 @@ p{
     flex-direction: column;
     gap: 20px;
   }
-  .hero-section, 
+  .hero-section {
+    padding: 100px 60px;
+  }
 .vission-section, 
 .mission-section, 
 .content-section, 
@@ -194,7 +200,9 @@ p{
 }
 
 @media (max-width: 600px) {
-  .hero-section, 
+  .hero-section {
+    padding: 100px 30px;
+  }
 .vission-section, 
 .mission-section, 
 .content-section, 
