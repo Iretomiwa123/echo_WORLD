@@ -376,15 +376,16 @@ h3 {
 
 @media (max-width:600px) {
     .hero {
-        min-height: 50vh;
+        min-height: 40vh;
         max-height: 100%;
     }
     
     .back-video {
         object-fit: cover;
+        background-position: center !important;
         height: 70vh; 
         max-height: 100%;
-        width: 100vw !important;
+        
     }
     .hero_next {
         padding: 20px 30px;
@@ -415,3 +416,17 @@ h3 {
         line-height: 1.5; 
     }
 }
+
+/* @media (max-width:480px) {
+    .hero {
+        min-height: 50vh;
+        max-height: 100%;
+    }
+    
+    .back-video {
+        object-fit: cover;
+        height: 70vh; 
+        max-height: 100%;
+       
+    }
+} */
